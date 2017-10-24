@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="p1">Hello World!</p>
+
+<script>
+/*
+这种写法会输出2条结果,并且2条结果全部更改
+document.write(document.getElementById("p1").innerHTML="change the world!")
+*/ 
+document.getElementById("p1").innerHTML="change the world!";
+</script>
+
+<p>上面的段落被一条 JavaScript 脚本修改了。</p>
+
+</body>
+</html>
